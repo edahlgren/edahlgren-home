@@ -1,0 +1,9 @@
+<!-- Renders post date, title, and snippet of text. -->
+<div class="py-2 mb-2 prose">
+  <a class="no-underline h5 bold text-accent" title="{{ content.url | prepend: site.baseurl }}" href="{{ content.url | prepend: site.baseurl }}">
+    {{ content.categories | join: " " }}
+  </a>
+  <h2 class="h1 lh-condensed col-12 mt-0">
+    <a class="link-primary" title="{{ content.url | prepend: site.baseurl }}" href="{{ content.url | prepend: site.baseurl }}">{{ content.title }}</a>
+  </h2>
+</div>

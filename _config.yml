@@ -1,0 +1,22 @@
+# Jekyll config
+plugins:
+  - jekyll-relative-links
+  - jekyll-remote-theme
+
+relative_links:
+  enabled: true
+
+collections:
+  content:
+    output: true
+
+# Theme
+remote_theme: broccolini/swiss
+
+# Theme config
+title: Erin Dahlgren
+description: Nonprofit software engineer and organizer
+github_username: edahlgren
+theme_color: red
+about_baseurl: /about/
+fun_url: http://fun.edahlgren.com
